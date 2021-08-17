@@ -19,6 +19,8 @@ namespace AdoteUmPet.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Pet>().HasKey(t => t.Id);
+
+            modelBuilder.Entity<Donos>().HasKey(t => t.IdDono);
             
         }
     }
