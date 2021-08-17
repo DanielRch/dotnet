@@ -20,8 +20,6 @@ namespace AdoteUmPet.Data
 
             modelBuilder.Entity<Pet>().HasKey(t => t.Id);
             
-            //aqsa\\\\\\
-            //
         }
     }
 }
